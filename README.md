@@ -10,4 +10,3 @@ Description:
 Known Issues:
 for the ensg2hugo.py: error obtained when attempting to use the unziped file (using gunzip).  This in turn is not allowing the dictionary to utilize the information to run the second part (matching the Ensemble name with the HUGO name.
 
-![image](https://user-images.githubusercontent.com/112045479/191456791-cfeedef1-5c8f-417c-be56-feea6cd59fee.png)

@@ -1,12 +1,26 @@
 
-Trgn_assignment3
+# Trgn_Assignment 3
+# Extract_phonenum.py
+## Usage:
+to extract phone number from textfile
+## Description:
+use a textfile, called 'my text file' to extract phone number with area code
+## Known issues:
+no known issues
 
-Usage:
-1)	Extract phone number from text file, 2) Lookup gene name (replace Ensembl with HUGO name) 3) Develop a histogram from data set.
+# ensg2hugo.py
+## Usage:
+to replace Ensembl name with Hugo name in a csv file
+## Description:
+1)Run the program as follows: type git clone https: //github.com/alzubeid/trgn_assignment3.git 2) run in the termnal; install all files in the same folder. 3) This fille will need to be accessed as wget. 4) The file to be unziped with gunzip. 5) Access the csv file (expression_analysis.csv), which is provided. 6) the column number need to be -f, 7) create a final table where the Ensembl name is replaced with the Hugo name.   
+## Known issues:
+The re for the final table need to be revised as it does not appear optimal
 
-Description:
-1) Run the program as follows: type git clone https://github.com/alzubeid/trgn_assignment3.git 2) Run in the terminal; install all files in the same folder.  3) Will need to search the gene_name in Homo_sapiens.  This file to be accessed as wget http://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens/Homo_sapiens.GRCh37.75.gtf.gz.  The file need to be unzipped with gunzip Homo_sapiens.GRCh37.75.gtf. 4) Will create a dictionary that matches the Ensemble names with the HUGO names.  5) The column number need to be -f.
-
-Known Issues:
-for the ensg2hugo.py: error obtained when attempting to use the unziped file (using gunzip).  This in turn is not allowing the dictionary to utilize the information to run the second part (matching the Ensemble name with the HUGO name.
+# histogram.py
+## Usage
+To determine a normal distribution of blood sugar in diabetics
+## Description:
+Generation of 1000 values divided into 30 bins to determine the distribution probability of a given blood sugar if following GaUssian normalization. 
+## Known issues:
+none. 
 

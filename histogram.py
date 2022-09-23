@@ -9,7 +9,7 @@ x = np.random.normal(size=1000)
 plt.hist(x, density=True, bins=20)  # density=False would make counts
 plt.ylabel('Probability')
 plt.xlabel('Data');
-plt.title('Gaussian Distribution')
+plt.title('Gaussian Distribution in diabetics')
 
 # Save the histogram
 plt.savefig('hist.png')

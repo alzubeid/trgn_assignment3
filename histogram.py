@@ -1,15 +1,17 @@
-#Part 3: creating a histogram (Gaussian Distribution)
-import matplotlib.pyplot as plt
+#Part 3: creating a histogram (Patient Blood Glucose Level)
+import pandas as pd
 import numpy as np
-%matplotlib inline
+from matplotlib import pyplot as plt
 
-np.random.seed(30)
-x = np.random.normal(size=1000)
+df =pd.read_csv(r'C:/users/batulal-zubeidy/desktop/patient_blood_glucose.csv')
+data = df[Glucose]
+bins=np.arnage(min(data), max(data) +1, 1)
+plt.hist(df['Glucose'], bins)
 
-plt.hist(x, density=True, bins=20)  # density=False would make counts
-plt.ylabel('Probability')
-plt.xlabel('Data');
-plt.title('Gaussian Distribution in diabetics')
+plt.title('Blood Glucose Level')
+plt.xlabel('Patients')
+Plt.ylabel('blood_glc_level')
+plt.show()
 
 # Save the histogram
 plt.savefig('hist.png')
